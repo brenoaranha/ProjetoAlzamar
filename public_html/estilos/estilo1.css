@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#topo {
+    
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    position: relative;
+}
+
+#texto-topo {
+    font-family: "Comic Sans ms";
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px -1px 3px yellow;
+    width: 900px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 3px -1px 3px black;
+    text-align: center;
+    position: relative;
+    width: 900px;
+    height: 20px;
+    margin: auto;
+    top: 106px;
+}
+
+#home {
+    float: left;
+    width: 110px;
+}
+#templo {
+    float: left;
+    width: 120px;
+}
+#cp {
+    float: left;
+    width: 180px;
+}
+#hora {
+    float: left;
+    width: 230px;
+}
+#fale {
+    float: left;
+    width: 130px;
+}
+#adj {
+    float: left;
+    width: 110px;
+}
+
+#corpo {
+    width: 900px;
+    height: 363px;
+    position: relative;
+    margin: auto;
+}
+
+#conteudo {
+    font-family: "Comic Sans ms";
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px -1px 3px yellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#rodape {
+    width: 900px;
+    height: 22px;
+    margin: auto;
+    top: 0px;
+    position: relative;
+    
+}  
+
+#texo-rodape {
+    font-family: "Comic Sans ms";
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px -1px 3px yellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -10%);
+}
+
+#container {
+    background-image: url(../topo.jpg);
+    background-size: 100% 100%;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+a:link{
+text-decoration: none;
+color:black;
+}
+
+a:visited{
+text-decoration:none;
+color: wheat;
+}
+
+a:hover{
+text-decoration:none;
+color: aqua;
+}
+
+a:active{
+text-decoration:none;
+color: aqua;
+}
